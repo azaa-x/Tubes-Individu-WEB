@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>DeadlineIn - Tambah / Edit Tugas</title>
+</head>
+<body>
+
+  <header>
+    <h1>DeadlineIn</h1>
+    <p>Karena deadline nggak nungguin siapa-siapa.</p>
+    <nav>
+      <a href="index.html">Beranda</a> |
+      <a href="form.html">Tambah Tugas</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Tambah / Edit Tugas</h2>
+
+    <form action="#" method="post">
+
+      <fieldset>
+        <legend>Informasi Dasar</legend>
+
+        <p>
+          <label for="nama-tugas">Nama Tugas</label><br>
+          <input type="text" id="nama-tugas" name="nama-tugas" placeholder="Contoh: Laporan Praktikum Basis Data" required>
+        </p>
+
+        <p>
+          <label for="mata-kuliah">Mata Kuliah</label><br>
+          <select id="mata-kuliah" name="mata-kuliah" required>
+            <option value="">-- Pilih Mata Kuliah --</option>
+            <option value="basis-data">Basis Data</option>
+            <option value="pemrograman-web">Pemrograman Web</option>
+            <option value="manajemen-bisnis">Manajemen Bisnis</option>
+            <option value="struktur-data">Struktur Data</option>
+            <option value="lainnya">Lainnya</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="dosen">Dosen Pengampu</label><br>
+          <input type="text" id="dosen" name="dosen" placeholder="Nama dosen">
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Jadwal & Prioritas</legend>
+
+        <p>
+          <label for="tanggal-deadline">Tanggal Deadline</label><br>
+          <input type="date" id="tanggal-deadline" name="tanggal-deadline" required>
+        </p>
+
+        <p>
+          <label for="waktu-deadline">Waktu Deadline</label><br>
+          <input type="time" id="waktu-deadline" name="waktu-deadline">
+        </p>
+
+        <p>
+          <label for="prioritas">Prioritas</label><br>
+          <select id="prioritas" name="prioritas">
+            <option value="rendah">Rendah</option>
+            <option value="sedang">Sedang</option>
+            <option value="tinggi">Tinggi</option>
+          </select>
+        </p>
+
+        <p>
+          <label for="status">Status Pengerjaan</label><br>
+          <select id="status" name="status">
+            <option value="belum">Belum dikerjakan</option>
+            <option value="proses">Sedang dikerjakan</option>
+            <option value="selesai">Selesai</option>
+          </select>
+        </p>
+      </fieldset>
+
+      <fieldset>
+        <legend>Detail Tambahan</legend>
+
+        <p>
+          <label for="deskripsi">Instruksi / Detail Tugas</label><br>
+          <textarea id="deskripsi" name="deskripsi" rows="5" cols="40" placeholder="Tuliskan detail instruksi tugas di sini..."></textarea>
+        </p>
+
+        <p>
+          <label for="lampiran">Lampiran Soal/Gambar (opsional)</label><br>
+          <input type="file" id="lampiran" name="lampiran" accept="image/*">
+        </p>
+      </fieldset>
+
+      <p>
+        <button type="submit">Simpan Tugas</button>
+        <button type="reset">Reset</button>
+      </p>
+
+    </form>
+
+    <p><a href="index.html">&larr; Kembali ke Beranda</a></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 DeadlineIn. Aplikasi manajemen tugas kuliah.</p>
+  </footer>
+
+</body>
+</html>

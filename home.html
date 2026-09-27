@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>DeadlineIn - Daftar Tugas</title>
+</head>
+<body>
+
+  <header>
+    <h1>Home Page</h1>
+    <nav>
+      <a href="home.html">Beranda</a> |
+      <a href="form.html">Tambah Tugas</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="ringkasan">
+      <h2>Ringkasan</h2>
+      <p>Total tugas aktif: 3</p>
+      <p>Tugas mendesak: <strong>Tugas 02 Hyper Text Markup Language</strong> (deadline 28 September)</p>
+    </section>
+
+    <section id="peringatan">
+      <h2>Peringatan</h2>
+      <p>
+        Ada <strong>1 tugas</strong> yang mendekati batas waktu: <strong>Tugas 02 Hyper Text Markup Language</strong>,
+        deadline <time datetime="2026-09-28T23:59">28 September 2026, pukul 23:59</time>.
+        Segera selesaikan sebelum terlambat.
+      </p>
+    </section>
+
+    <section id="semua-tugas">
+      <h2>Semua Tugas Aktif</h2>
+      <p>Perhatikan deadline setiap tugas.</p>
+
+      <table border="1">
+        <thead>
+          <tr>
+            <th>Nama Tugas</th>
+            <th>Mata Kuliah</th>
+            <th>Deadline</th>
+            <th>Status</th>
+            <th>Aksi</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tugas 02 Hyper Text Markup Language</td>
+            <td>Pemrograman Web</td>
+            <td><time datetime="2026-09-28T23:59">28 Sep 2026, 23:59</time></td>
+            <td>Sedang dikerjakan</td>
+            <td>
+              <a href="detail.html">Lihat</a> |
+              <a href="form.html">Edit</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Essay Perbandingan MBA dan MEM</td>
+            <td>Manajemen Bisnis</td>
+            <td><time datetime="2026-09-30T17:00">30 Sep 2026, 17:00</time></td>
+            <td>Belum dikerjakan</td>
+            <td>
+              <a href="detail.html">Lihat</a> |
+              <a href="form.html">Edit</a>
+            </td>
+          </tr>
+          <tr>
+            <td>Struktur HTML Aplikasi Fullstack</td>
+            <td>Pemrograman Web</td>
+            <td><time datetime="2026-10-01T23:59">1 Okt 2026, 23:59</time></td>
+            <td>Selesai</td>
+            <td>
+              <a href="detail.html">Lihat</a> |
+              <a href="form.html">Edit</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="per-mata-kuliah">
+      <h2>Lihat per Mata Kuliah</h2>
+
+      <article>
+        <h3>Basis Data</h3>
+        <p>1 tugas aktif &mdash; <a href="detail.html">Laporan Praktikum Basis Data</a></p>
+      </article>
+
+      <article>
+        <h3>Manajemen Bisnis</h3>
+        <p>1 tugas aktif &mdash; <a href="detail.html">Essay Perbandingan MBA dan MEM</a></p>
+      </article>
+
+      <article>
+        <h3>Pemrograman Web</h3>
+        <p>1 tugas aktif &mdash; <a href="detail.html">Struktur HTML Aplikasi Fullstack</a></p>
+      </article>
+    </section>
+
+    <section id="tambah">
+      <h2>Punya Tugas Baru?</h2>
+      <p><a href="form.html">Catat sekarang sebelum lupa &rarr;</a></p>
+    </section>
+
+  </main>
+</body>
+</html>
