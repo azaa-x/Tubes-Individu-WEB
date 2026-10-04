@@ -36,68 +36,94 @@
       <h2>Semua Tugas Aktif</h2>
       <p>Perhatikan deadline setiap tugas.</p>
 
-      <table border="1">
-        <thead>
-          <tr>
-            <th>Nama Tugas</th>
-            <th>Mata Kuliah</th>
-            <th>Deadline</th>
-            <th>Status</th>
-            <th>Aksi</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Tugas 02 HTML</td>
-            <td>Perancangan dan Pemrograman Web</td>
-            <td><time datetime="2026-09-28T23:59">28 Sep 2026, 23:59</time></td>
-            <td>Sedang dikerjakan</td>
-            <td>
-              <a href="detail.html">Lihat</a> |
-              <a href="form.html">Edit</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Kuis 02</td>
-            <td>Perancangan dan Pemrograman Web</td>
-            <td><time datetime="2026-09-30T17:00">30 Sep 2026, 17:00</time></td>
-            <td>Belum dikerjakan</td>
-            <td>
-              <a href="detail.html">Lihat</a> |
-              <a href="form.html">Edit</a>
-            </td>
-          </tr>
-          <tr>
-            <td>Project 01</td>
-            <td>Pengalaman Pengguna</td>
-            <td><time datetime="2026-10-01T23:59">1 Okt 2026, 23:59</time></td>
-            <td>Selesai</td>
-            <td>
-              <a href="detail.html">Lihat</a> |
-              <a href="form.html">Edit</a>
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <div class="daftar-tugas">
+        <article class="kartu-tugas">
+          <div class="tanggal-tugas">
+            <time datetime="2026-09-28T23:59">
+              <span class="angka-tanggal">28</span>
+              <span>September</span>
+              <span>2026</span>
+            </time>
+          </div>
+          <div class="detail-tugas">
+            <h3>Tugas 02 HTML</h3>
+            <p>Perancangan dan Pemrograman Web</p>
+            <p class="status-tugas">Sedang dikerjakan &middot; Deadline pukul 23:59</p>
+          </div>
+          <div class="aksi-tugas">
+            <a href="detail.html">Lihat detail</a>
+            <a href="form.html">Edit</a>
+          </div>
+        </article>
+
+        <article class="kartu-tugas">
+          <div class="tanggal-tugas">
+            <time datetime="2026-09-30T17:00">
+              <span class="angka-tanggal">30</span>
+              <span>September</span>
+              <span>2026</span>
+            </time>
+          </div>
+          <div class="detail-tugas">
+            <h3>Kuis 02</h3>
+            <p>Perancangan dan Pemrograman Web</p>
+            <p class="status-tugas">Belum dikerjakan &middot; Deadline pukul 17:00</p>
+          </div>
+          <div class="aksi-tugas">
+            <a href="detail.html">Lihat detail</a>
+            <a href="form.html">Edit</a>
+          </div>
+        </article>
+
+        <article class="kartu-tugas">
+          <div class="tanggal-tugas">
+            <time datetime="2026-10-01T23:59">
+              <span class="angka-tanggal">1</span>
+              <span>Oktober</span>
+              <span>2026</span>
+            </time>
+          </div>
+          <div class="detail-tugas">
+            <h3>Project 01</h3>
+            <p>Pengalaman Pengguna</p>
+            <p class="status-tugas">Belum dikerjakan &middot; Deadline pukul 23:59</p>
+          </div>
+          <div class="aksi-tugas">
+            <a href="detail.html">Lihat detail</a>
+            <a href="form.html">Edit</a>
+          </div>
+        </article>
+      </div>
     </section>
 
     <section id="per-mata-kuliah">
       <h2>Lihat per Mata Kuliah</h2>
 
-      <article>
-        <h3>Perancangan dan Pemrograman Web</h3>
-        <p>2 tugas aktif &mdash; <a href="detail.html">Tugas 02 Hyper Text Markup Language</a>  <a href="detail.html">Kuis 02</a></p>
+      <article class="kartu-mk">
+        <div class="info-mk">
+          <h3>Perancangan dan Pemrograman Web</h3>
+          <p>2 tugas aktif</p>
+        </div>
+        <div class="tautan-mk">
+          <a href="detail.html">Tugas 02 Hyper Text Markup Language</a>
+          <a href="detail.html">Kuis 02</a>
+        </div>
       </article>
 
-      <article>
-        <h3>Pengalaman Pengguna</h3>
-        <p>1 tugas aktif &mdash; <a href="detail.html">Project 01</a></p>
+      <article class="kartu-mk">
+        <div class="info-mk">
+          <h3>Pengalaman Pengguna</h3>
+          <p>1 tugas aktif</p>
+        </div>
+        <div class="tautan-mk">
+          <a href="detail.html">Project 01</a>
+        </div>
       </article>
     </section>
 
     <section id="tambah">
       <h2>Punya Tugas Baru?</h2>
-      <p><a href="form.html">Catat sekarang sebelum lupa &rarr;</a></p>
+      <p><a class="tautan-panah" href="form.html">Catat sekarang sebelum lupa &rarr;</a></p>
     </section>
 
   </main>
