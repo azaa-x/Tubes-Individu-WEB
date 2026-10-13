@@ -2,96 +2,105 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DeadlineIn - Tambah / Edit Tugas</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-deadlinein bg-white sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="home.html">DeadlineIn</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuUtama" aria-controls="menuUtama" aria-expanded="false" aria-label="Buka menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuUtama">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="home.html">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="tugas.html">Daftar Tugas</a></li>
+          <li class="nav-item"><a class="nav-link active" href="form.html">Tambah Tugas</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <header>
-    <h1>DeadlineIn</h1>
-    <nav>
-      <a href="home.html">Beranda</a> |
-      <a href="form.html">Tambah Tugas</a>
-    </nav>
-  </header>
-
-  <main>
-    <h2>Tambah / Edit Tugas</h2>
+  <main class="container py-4 py-md-5">
+    <h2 class="judul-halaman mb-4">Tambah / Edit Tugas</h2>
 
     <form action="home.html" method="post">
-
-      <fieldset>
+      <fieldset class="kotak-form mb-4">
         <legend>Informasi Dasar</legend>
-
-        <p>
-          <label for="nama-tugas">Nama Tugas</label><br>
-          <input type="text" id="nama-tugas" name="nama-tugas" placeholder="Contoh: Laporan Praktikum Basis Data" required>
-        </p>
-
-        <p>
-          <label for="mata-kuliah">Mata Kuliah</label><br>
-          <select id="mata-kuliah" name="mata-kuliah" required>
-            <option value="">-- Pilih Mata Kuliah --</option>
-            <option value="basis-data">Basis Data</option>
-            <option value="perancangan-dan-pemrograman-web">Perancangan dan Pemrograman Web</option>
-            <option value="manajemen-bisnis">Manajemen Bisnis</option>
-            <option value="struktur-data">Struktur Data</option>
-            <option value="pengalaman-pengguna">Lainnya</option>
-          </select>
-        </p>
-
-        <p>
-          <label for="dosen">Dosen Pengampu</label><br>
-          <input type="text" id="dosen" name="dosen" placeholder="Kode dosen">
-        </p>
+        <div class="row g-3">
+          <div class="col-12">
+            <label for="nama-tugas" class="form-label">Nama Tugas</label>
+            <input type="text" class="form-control" id="nama-tugas" name="nama-tugas" placeholder="Contoh: Laporan Praktikum Basis Data" required>
+          </div>
+          <div class="col-12 col-md-6">
+            <label for="mata-kuliah" class="form-label">Mata Kuliah</label>
+            <select class="form-select" id="mata-kuliah" name="mata-kuliah" required>
+              <option value="">-- Pilih Mata Kuliah --</option>
+              <option value="basis-data">Basis Data</option>
+              <option value="perancangan-dan-pemrograman-web">Perancangan dan Pemrograman Web</option>
+              <option value="manajemen-bisnis">Manajemen Bisnis</option>
+              <option value="struktur-data">Struktur Data</option>
+              <option value="pengalaman-pengguna">Lainnya</option>
+            </select>
+          </div>
+          <div class="col-12 col-md-6">
+            <label for="dosen" class="form-label">Dosen Pengampu</label>
+            <input type="text" class="form-control" id="dosen" name="dosen" placeholder="Kode dosen">
+          </div>
+        </div>
       </fieldset>
 
-      <fieldset>
-        <legend>Jadwal & Prioritas</legend>
-
-        <p>
-          <label for="tanggal-deadline">Tanggal Deadline</label><br>
-          <input type="date" id="tanggal-deadline" name="tanggal-deadline" required>
-        </p>
-
-        <p>
-          <label for="waktu-deadline">Waktu Deadline</label><br>
-          <input type="time" id="waktu-deadline" name="waktu-deadline">
-        </p>
-
-        <p>
-          <label for="status">Status Pengerjaan</label><br>
-          <select id="status" name="status">
-            <option value="belum">Belum dikerjakan</option>
-            <option value="proses">Sedang dikerjakan</option>
-            <option value="selesai">Selesai</option>
-          </select>
-        </p>
+      <fieldset class="kotak-form mb-4">
+        <legend>Jadwal &amp; Prioritas</legend>
+        <div class="row g-3">
+          <div class="col-12 col-md-4">
+            <label for="tanggal-deadline" class="form-label">Tanggal Deadline</label>
+            <input type="date" class="form-control" id="tanggal-deadline" name="tanggal-deadline" required>
+          </div>
+          <div class="col-12 col-md-4">
+            <label for="waktu-deadline" class="form-label">Waktu Deadline</label>
+            <input type="time" class="form-control" id="waktu-deadline" name="waktu-deadline">
+          </div>
+          <div class="col-12 col-md-4">
+            <label for="status" class="form-label">Status Pengerjaan</label>
+            <select class="form-select" id="status" name="status">
+              <option value="belum">Belum dikerjakan</option>
+              <option value="proses">Sedang dikerjakan</option>
+              <option value="selesai">Selesai</option>
+            </select>
+          </div>
+        </div>
       </fieldset>
 
-      <fieldset>
+      <fieldset class="kotak-form mb-4">
         <legend>Detail Tambahan</legend>
-
-        <p>
-          <label for="deskripsi">Instruksi / Detail Tugas</label><br>
-          <textarea id="deskripsi" name="deskripsi" rows="5" cols="40" placeholder="Tuliskan detail instruksi tugas di sini..."></textarea>
-        </p>
-
-        <p>
-          <label for="lampiran">Lampiran Tugas (opsional)</label><br>
-          <input type="file" id="lampiran" name="lampiran" accept=".pdf,application/pdf">
-        </p>
+        <div class="row g-3">
+          <div class="col-12">
+            <label for="deskripsi" class="form-label">Instruksi / Detail Tugas</label>
+            <textarea class="form-control" id="deskripsi" name="deskripsi" rows="5" placeholder="Tuliskan detail instruksi tugas di sini..."></textarea>
+          </div>
+          <div class="col-12">
+            <label for="lampiran" class="form-label">Lampiran Tugas (opsional)</label>
+            <input type="file" class="form-control" id="lampiran" name="lampiran" accept=".pdf,application/pdf">
+          </div>
+        </div>
       </fieldset>
 
-      <p>
-        <button type="submit">Simpan Tugas</button>
-        <button type="reset">Reset</button>
-      </p>
-
+      <div class="d-grid gap-2 d-sm-flex">
+        <button type="submit" class="btn btn-brand px-4">Simpan Tugas</button>
+        <button type="reset" class="btn btn-outline-brand px-4">Reset</button>
+      </div>
     </form>
 
-    <p><a class="tautan-panah" href="home.html">&larr; Kembali ke Beranda</a></p>
+    <p class="mt-4 mb-0"><a class="tautan-panah" href="home.html">&larr; Kembali ke Beranda</a></p>
   </main>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

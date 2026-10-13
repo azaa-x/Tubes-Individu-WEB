@@ -2,66 +2,88 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DeadlineIn - Detail Tugas</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-deadlinein bg-white sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="home.html">DeadlineIn</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuUtama" aria-controls="menuUtama" aria-expanded="false" aria-label="Buka menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuUtama">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="home.html">Beranda</a></li>
+          <li class="nav-item"><a class="nav-link" href="tugas.html">Daftar Tugas</a></li>
+          <li class="nav-item"><a class="nav-link" href="form.html">Tambah Tugas</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-  <header>
-    <h1>DeadlineIn</h1>
-    <nav>
-      <a href="home.html">Beranda</a> |
-      <a href="form.html">Tambah Tugas</a>
-    </nav>
-  </header>
+  <main class="container py-4 py-md-5">
+    <h2 class="judul-halaman mb-4">Detail Tugas</h2>
 
-  <main>
-    <h2>Detail Tugas</h2>
+    <article class="card shadow-sm border-0">
+      <div class="card-body p-4">
+        <h3 class="h4 mb-4">Tugas Membuat Web Sederhana</h3>
 
-    <article>
-      <h3>Tugas Membuat Web Sederhana</h3>
+        <section id="info-utama">
+          <h4 class="h6 judul-sub">Informasi Utama</h4>
+          <dl class="row mb-0">
+            <dt class="col-sm-4 text-secondary">Mata Kuliah</dt>
+            <dd class="col-sm-8">Perancangan dan Pemrograman Web</dd>
 
-      <section id="info-utama">
-        <h4>Informasi Utama</h4>
-        <dl>
-          <dt>Mata Kuliah</dt>
-          <dd>Perancangan dan Pemrograman Web</dd>
+            <dt class="col-sm-4 text-secondary">Kode Mata Kuliah</dt>
+            <dd class="col-sm-8">CRI3B3</dd>
 
-          <dt>Kode Mata Kuliah</dt>
-          <dd>CRI3B3</dd>
+            <dt class="col-sm-4 text-secondary">Dosen Pengampu</dt>
+            <dd class="col-sm-8">VLY</dd>
 
-          <dt>Dosen Pengampu</dt>
-          <dd>VLY</dd>
+            <dt class="col-sm-4 text-secondary">Deadline</dt>
+            <dd class="col-sm-8"><time datetime="2026-09-28T23:59">28 September 2026, 23:59</time></dd>
+          </dl>
+        </section>
 
-          <dt>Deadline</dt>
-          <dd><time datetime="2026-09-28T23:59">28 September 2026, 23:59</time></dd>
-        </dl>
-      </section>
+        <hr>
 
-      <section id="instruksi">
-        <h4>Instruksi Lengkap</h4>
-        <p>
-          Buat sebuah halaman web sederhana menggunakan HTML dan CSS 
-          berdasarkan studi kasus yang diberikan. Mencakup 
-          pembuatan struktur dasar HTML, penggunaan elemen HTML, 
-          penerapan CSS untuk mengatur tampilan dan tata letak halaman, 
-          serta implementasi halaman web sesuai dengan desain yang ditentukan. 
-          Kumpulkan hasil pengerjaan dalam format PDF melalui portal kelas.
-        </p>
-      </section>
+        <section id="instruksi">
+          <h4 class="h6 judul-sub">Instruksi Lengkap</h4>
+          <p class="mb-0">
+            Buat sebuah halaman web sederhana menggunakan HTML dan CSS
+            berdasarkan studi kasus yang diberikan. Mencakup
+            pembuatan struktur dasar HTML, penggunaan elemen HTML,
+            penerapan CSS untuk mengatur tampilan dan tata letak halaman,
+            serta implementasi halaman web sesuai dengan desain yang ditentukan.
+            Kumpulkan hasil pengerjaan dalam format PDF melalui portal kelas.
+          </p>
+        </section>
 
-      <section id="lampiran">
-        <h4>Lampiran</h4>
-        <p><a href="../assets/lampiran-tugas.pdf">Buka lampiran (PDF)</a></p>
-      </section>
+        <hr>
 
-      <section id="aksi">
-        <h4>Aksi</h4>
-        <p><a href="form.html">Edit Tugas Ini</a></p>
-      </section>
+        <section id="lampiran">
+          <h4 class="h6 judul-sub">Lampiran</h4>
+          <p class="mb-0"><a class="btn btn-sm btn-outline-brand" href="../assets/lampiran-tugas.pdf">Buka lampiran (PDF)</a></p>
+        </section>
+
+        <hr>
+
+        <section id="aksi">
+          <h4 class="h6 judul-sub">Aksi</h4>
+          <p class="mb-0"><a class="btn btn-brand" href="form.html">Edit Tugas Ini</a></p>
+        </section>
+      </div>
     </article>
 
-    <p><a class="tautan-panah" href="home.html">&larr; Kembali ke Beranda</a></p>
+    <p class="mt-4 mb-0"><a class="tautan-panah" href="home.html">&larr; Kembali ke Beranda</a></p>
   </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
