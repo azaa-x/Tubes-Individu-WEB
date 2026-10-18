@@ -33,9 +33,9 @@
   <main class="container py-4 py-md-5">
     <h2 class="judul-halaman mb-4">Detail Tugas</h2>
 
-    <div id="tidak-ditemukan" class="alert alert-warning" role="alert" style="display:none">
-      Tugas tidak ditemukan. Mungkin sudah dihapus. <a href="tugas.html" class="alert-link">Kembali ke daftar tugas</a>.
-    </div>
+    <p id="tidak-ditemukan" class="alert alert-warning" style="display:none">
+      Tugas tidak ditemukan. <a href="tugas.html" class="alert-link">Kembali ke daftar tugas</a>.
+    </p>
 
     <article id="konten-detail" class="card shadow-sm border-0">
       <div class="card-body p-4">
@@ -54,7 +54,7 @@
             <dd id="detail-dosen" class="col-sm-8"></dd>
 
             <dt class="col-sm-4 text-secondary">Deadline</dt>
-            <dd class="col-sm-8"><time id="detail-deadline"></time> <small id="detail-sisa" class="text-secondary ms-1"></small></dd>
+            <dd class="col-sm-8"><time id="detail-deadline"></time></dd>
 
             <dt class="col-sm-4 text-secondary">Status</dt>
             <dd class="col-sm-8"><span id="detail-status" class="badge"></span></dd>
@@ -64,13 +64,8 @@
         <hr>
 
         <section id="instruksi">
-          <div class="d-flex justify-content-between align-items-center mb-2">
-            <h4 class="h6 judul-sub mb-0">Instruksi Lengkap</h4>
-            <button type="button" id="btn-toggle-instruksi" class="btn btn-sm btn-outline-brand">Sembunyikan</button>
-          </div>
-          <div id="isi-instruksi">
-            <p id="detail-instruksi" class="mb-0"></p>
-          </div>
+          <h4 class="h6 judul-sub">Instruksi Lengkap</h4>
+          <p id="detail-instruksi" class="mb-0"></p>
         </section>
 
         <hr>
@@ -86,7 +81,6 @@
           <h4 class="h6 judul-sub">Aksi</h4>
           <div class="d-grid gap-2 d-sm-flex">
             <a id="btn-edit" class="btn btn-brand" href="form.html">Edit Tugas Ini</a>
-            <button type="button" id="btn-selesai" class="btn btn-outline-success">Tandai Selesai</button>
             <button type="button" id="btn-hapus" class="btn btn-outline-danger">Hapus Tugas</button>
           </div>
         </section>
