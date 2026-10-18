@@ -1,36 +1,35 @@
 ## Preview
 
 ### Home Page
-Halaman utama website yang menampilkan informasi dan navigasi utama.
+Halaman utama website yang menampilkan informasi dan navigasi utama dari web DeadlineIn.
+<img width="475" height="210" alt="image" src="https://github.com/user-attachments/assets/a7aed784-7a75-403e-8d11-3848b7730995" />
+<img width="170" height="210" alt="image" src="https://github.com/user-attachments/assets/2757093d-d61c-4305-905d-0677fb995fa9" />
 
-<img width="718" height="401" alt="image" src="https://github.com/user-attachments/assets/cd943b48-b0a1-478f-90a4-1a9cb703604e" />
-<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/9b67f8cb-eae4-48b7-a6c7-9f7399b1f9ef" /> 
-<img width="210" height="300" alt="image" src="https://github.com/user-attachments/assets/b1b75af1-14ae-462a-8942-b04b20a72cbd" />
-<img width="600" height="285" alt="image" src="https://github.com/user-attachments/assets/a4e358dc-f8dd-4e8c-8fad-5f8b42e88c79" />
-<img width="210" height="285" alt="image" src="https://github.com/user-attachments/assets/c7e66cee-96bc-4dce-8c79-c1d3c1fe0bfe" />
 
+
+### Daftar Tugas
+Halaman yang menampilkan keluruh tugas baik yang telah maupun belum diselesaikan.
+<img width="475" height="155" alt="image" src="https://github.com/user-attachments/assets/bdb8bdc7-4206-4064-a8ef-14ae466b8d73" />
+<img width="170" height="210" alt="image" src="https://github.com/user-attachments/assets/eee8474c-308a-486d-9cf3-555b3605d0b4" />
 
 
 
 ### Form Page
 Halaman Tambah/Edit Tugas yang memungkinkan pengguna menambahkan tugas baru atau edit tugas yang telah ditambahkan.
-
-<img width="719" height="433" alt="image" src="https://github.com/user-attachments/assets/9a1398a4-8a5a-49ce-b96e-54fb5e2bcdfd" />
-<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/e3f0ac06-0162-448c-9ff0-0980f3ccd608" />
-<img width="210" height="300" alt="image" src="https://github.com/user-attachments/assets/40c8d671-74ba-4b00-807e-494a20472d1e" />
-<img width="600" height="285" alt="image" src="https://github.com/user-attachments/assets/dab7ac39-a2e6-4189-a6a1-2ceed316db9a" />
-<img width="210" height="285" alt="image" src="https://github.com/user-attachments/assets/8eb7e17f-df5c-4c11-b321-b9d5bc706266" />
-
+<img width="475" height="210" alt="image" src="https://github.com/user-attachments/assets/a2aabfd8-ea06-4b4c-9fc8-8c1543c116db" />
+<img width="170" height="210" alt="image" src="https://github.com/user-attachments/assets/c3e1e04f-8131-4440-8e39-b395bf302361" />
 
 
 
 ### Detail Page
 Halaman Detail Tugas untuk melihat detail dari tugas yang telah ditambahkan.
+<img width="475" height="210" alt="image" src="https://github.com/user-attachments/assets/cef0f672-af51-4f46-a8e9-dbbecef353b6" />
+<img width="170" height="210" alt="image" src="https://github.com/user-attachments/assets/e06e06ba-f066-4c43-abf0-d9fb5e3098e9" />
 
-<img width="718" height="415" alt="image" src="https://github.com/user-attachments/assets/d696379c-1355-45e0-8f6d-0ad66182d6d3" />
-<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/764fa3f7-a9d0-4c68-bbe7-592c03b5adc8" />
-<img width="210" height="300" alt="image" src="https://github.com/user-attachments/assets/6bc20c0d-2763-40b6-a21f-4bb6fba9606f" />
-<img width="600" height="285" alt="image" src="https://github.com/user-attachments/assets/c8398c84-74d0-46f4-b47f-08d037effb77" />
-<img width="210" height="285" alt="image" src="https://github.com/user-attachments/assets/22c4f502-1492-42c0-b992-beeef44e273e" />
 
+
+### Add MK Page
+Halaman untuk user input Mata Kuliah yang sedang diambil, agar mempermudah pencatatan tugas yang dikelompokkan untuk setiap Mata Kuliah.
+<img width="475" height="210" alt="image" src="https://github.com/user-attachments/assets/30b7e63f-463d-4c55-8ba9-6f27edf6339f" />
+<img width="170" height="210" alt="image" src="https://github.com/user-attachments/assets/94c59b55-b246-4083-a34d-2980829266ad" />
 
