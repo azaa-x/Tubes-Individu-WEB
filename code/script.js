@@ -1,5 +1,3 @@
-/* ---------- BAGIAN 1: DATA DUMMY ---------- */
-
 const BULAN = ["Januari", "Februari", "Maret", "April", "Mei", "Juni",
                "Juli", "Agustus", "September", "Oktober", "November", "Desember"];
 
@@ -78,8 +76,6 @@ function simpanData() {
 }
 
 
-/* ---------- BAGIAN 2: FUNCTION PEMROSES DATA ---------- */
-
 function hitungAktif(daftar) {
   return daftar.filter(t => t.status !== "selesai").length;
 }
@@ -113,8 +109,6 @@ function esc(teks) {
   return $("<div>").text(teks).html();
 }
 
-
-/* ---------- BAGIAN 3: FUNCTION PEMBUAT TAMPILAN ---------- */
 
 function kartuTugas(t) {
   const d = new Date(t.deadline);
