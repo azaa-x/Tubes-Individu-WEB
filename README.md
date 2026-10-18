@@ -3,22 +3,32 @@
 ### Home Page
 Halaman utama website yang menampilkan informasi dan navigasi utama.
 
-<img width="210" height="285" alt="image" src="https://github.com/user-attachments/assets/c7e66cee-96bc-4dce-8c79-c1d3c1fe0bfe" />
+<img width="718" height="401" alt="image" src="https://github.com/user-attachments/assets/cd943b48-b0a1-478f-90a4-1a9cb703604e" />
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/9b67f8cb-eae4-48b7-a6c7-9f7399b1f9ef" /> 
+<img width="185" height="300" alt="image" src="https://github.com/user-attachments/assets/b1b75af1-14ae-462a-8942-b04b20a72cbd" />
 <img width="600" height="285" alt="image" src="https://github.com/user-attachments/assets/a4e358dc-f8dd-4e8c-8fad-5f8b42e88c79" />
+<img width="210" height="285" alt="image" src="https://github.com/user-attachments/assets/c7e66cee-96bc-4dce-8c79-c1d3c1fe0bfe" />
 
 
 
 ### Form Page
 Halaman Tambah/Edit Tugas yang memungkinkan pengguna menambahkan tugas baru atau edit tugas yang telah ditambahkan.
 
-<img width="210" height="285" alt="image" src="https://github.com/user-attachments/assets/8eb7e17f-df5c-4c11-b321-b9d5bc706266" />
+<img width="719" height="433" alt="image" src="https://github.com/user-attachments/assets/9a1398a4-8a5a-49ce-b96e-54fb5e2bcdfd" />
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/e3f0ac06-0162-448c-9ff0-0980f3ccd608" />
+<img width="185" height="300" alt="image" src="https://github.com/user-attachments/assets/40c8d671-74ba-4b00-807e-494a20472d1e" />
 <img width="600" height="285" alt="image" src="https://github.com/user-attachments/assets/dab7ac39-a2e6-4189-a6a1-2ceed316db9a" />
+<img width="210" height="285" alt="image" src="https://github.com/user-attachments/assets/8eb7e17f-df5c-4c11-b321-b9d5bc706266" />
 
 
 
 ### Detail Page
 Halaman Detail Tugas untuk melihat detail dari tugas yang telah ditambahkan.
 
-<img width="210" height="285" alt="image" src="https://github.com/user-attachments/assets/22c4f502-1492-42c0-b992-beeef44e273e" />
+<img width="718" height="415" alt="image" src="https://github.com/user-attachments/assets/d696379c-1355-45e0-8f6d-0ad66182d6d3" />
+<img width="600" height="300" alt="image" src="https://github.com/user-attachments/assets/764fa3f7-a9d0-4c68-bbe7-592c03b5adc8" />
+<img width="185" height="300" alt="image" src="https://github.com/user-attachments/assets/6bc20c0d-2763-40b6-a21f-4bb6fba9606f" />
 <img width="600" height="285" alt="image" src="https://github.com/user-attachments/assets/c8398c84-74d0-46f4-b47f-08d037effb77" />
+<img width="210" height="285" alt="image" src="https://github.com/user-attachments/assets/22c4f502-1492-42c0-b992-beeef44e273e" />
+
 
